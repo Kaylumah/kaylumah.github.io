@@ -5,12 +5,24 @@
         <lastmod>2021-04-24T00:00:00.0000000+00:00</lastmod>
     </url>
     <url>
-        <loc>https://kaylumah.nl/2021/07/17/decreasing-solution-build-time-with-filters.html</loc>
-        <lastmod>2021-07-17T00:00:00.0000000+00:00</lastmod>
+        <loc>https://kaylumah.nl/tags.html</loc>
+        <lastmod>2021-04-24T00:00:00.0000000+00:00</lastmod>
     </url>
     <url>
-        <loc>https://kaylumah.nl/2021/05/23/generate-csharp-client-for-openapi.html</loc>
-        <lastmod>2021-05-23T00:00:00.0000000+00:00</lastmod>
+        <loc>https://kaylumah.nl/blog.html</loc>
+        <lastmod>2021-04-24T00:00:00.0000000+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://kaylumah.nl/about.html</loc>
+        <lastmod>2021-04-24T00:00:00.0000000+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://kaylumah.nl/types.html</loc>
+        <lastmod>2021-04-24T00:00:00.0000000+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://kaylumah.nl/2021/03/27/set-nuget-metadata-via-msbuild.html</loc>
+        <lastmod>2021-03-27T00:00:00.0000000+00:00</lastmod>
     </url>
     <url>
         <loc>https://kaylumah.nl/2019/09/07/using-csharp-code-your-git-hooks.html</loc>
@@ -21,28 +33,16 @@
         <lastmod>2021-04-11T00:00:00.0000000+00:00</lastmod>
     </url>
     <url>
+        <loc>https://kaylumah.nl/2021/07/17/decreasing-solution-build-time-with-filters.html</loc>
+        <lastmod>2021-07-17T00:00:00.0000000+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://kaylumah.nl/2021/05/23/generate-csharp-client-for-openapi.html</loc>
+        <lastmod>2021-05-23T00:00:00.0000000+00:00</lastmod>
+    </url>
+    <url>
         <loc>https://kaylumah.nl/2020/08/01/kaylumah-the-new-home-for-blogs-written-by-max-hamulyak.html</loc>
         <lastmod>2020-08-01T00:00:00.0000000+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://kaylumah.nl/2021/03/27/set-nuget-metadata-via-msbuild.html</loc>
-        <lastmod>2021-03-27T00:00:00.0000000+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://kaylumah.nl/tags.html</loc>
-        <lastmod>2021-04-24T00:00:00.0000000+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://kaylumah.nl/types.html</loc>
-        <lastmod>2021-04-24T00:00:00.0000000+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://kaylumah.nl/about.html</loc>
-        <lastmod>2021-04-24T00:00:00.0000000+00:00</lastmod>
-    </url>
-    <url>
-        <loc>https://kaylumah.nl/blog.html</loc>
-        <lastmod>2021-04-24T00:00:00.0000000+00:00</lastmod>
     </url>
 </urlset>
 <!-- https://github.com/jekyll/jekyll-sitemap/blob/master/lib/sitemap.xml -->
