@@ -11,87 +11,75 @@
         <link rel="manifest" href="/assets/images/site.webmanifest" />
         <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="hotpink" />
         
-        <link href="/compiled.css?v=a405d53" rel="stylesheet" />
-        <link href="/assets/prism.css?v=a405d53" rel="stylesheet" />
+        <link href="/compiled.css?v=bfe9160" rel="stylesheet" />
+        <link href="/assets/prism.css?v=bfe9160" rel="stylesheet" />
         
-        <!-- Begin Kaylumah SEO tag va405d53 -->
-
-    <title>Generate C# client for OpenAPI</title>
-
-    <meta name="generator" content="Kaylumah va405d53" />
-
-    <meta property="og:title" content="Generate C# client for OpenAPI" />
+        
 
 
-    <meta name="author" content="max" />
+<!-- Begin Kaylumah SEO tag vbfe9160 -->
 
-    <meta property="og:locale" content="en" />
+<title>Generate C# client for OpenAPI</title>
+<link rel="canonical" href="https://kaylumah.nl/2021/05/23/generate-csharp-client-for-openapi.html" />
 
-    <meta name="description" content="A look at using OpenAPI clients in C#" />
-    <meta property="og:description" content="A look at using OpenAPI clients in C#" />
+<meta name="generator" content="Kaylumah vbfe9160" />
+<meta name="description" content="A look at using OpenAPI clients in C#">
+<!-- <meta name="keywords" content="CSharp,OpenAPI,NSwag,Swashbuckle"> -->
+<meta name="author" content="Max Hamulyák">
+<meta name="copyright" content="© Kaylumah. All rights reserved.">
 
+<meta property="og:locale" content="en" />
+<meta property="og:site_name" content="Website, portfolio and blog of Max Hamulyák · Kaylumah" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Generate C# client for OpenAPI">
+<meta property="og:url" content="https://kaylumah.nl/2021/05/23/generate-csharp-client-for-openapi.html">
+<meta property="og:image" content="https://kaylumah.nl/assets/images/posts/20210523/generate-csharp-client-for-openapi/cover_image.png">
+<meta property="og:description" content="A look at using OpenAPI clients in C#"><meta property="article:author" content="Max Hamulyák">
+<meta property="article:published_time" content="2021-05-23T00:00:00.0000000+00:00">
+<meta property="article:modified_time" content="2021-05-23T00:00:00.0000000+00:00">
 
+<meta property="article:tag" content="CSharp" />
 
-    
-    <link rel="canonical" href="https://kaylumah.nl/2021/05/23/generate-csharp-client-for-openapi.html" />
-    <meta property="og:url" content="https://kaylumah.nl/2021/05/23/generate-csharp-client-for-openapi.html" />
+<meta property="article:tag" content="OpenAPI" />
 
+<meta property="article:tag" content="NSwag" />
 
-
-
-    <meta property="og:site_name" content="Kaylumah, Max Hamulyák | Portfolio & Blog" />
-
-
-
-    <meta property="og:image" content="https://kaylumah.nl/assets/images/posts/20210523/generate-csharp-client-for-openapi/cover_image.png" />
-
-
-
-    <meta property="og:type" content="article" />
-    <meta property="article:published_time" content="2021-05-23T00:00:00.0000000+00:00" />
-
-
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:image" content="https://kaylumah.nl/assets/images/posts/20210523/generate-csharp-client-for-openapi/cover_image.png" />
+<meta property="article:tag" content="Swashbuckle" />
 
 
-    <meta property="twitter:title" content="Generate C# client for OpenAPI" />
-
-
-
-  
-    <meta name="twitter:site" content="@kaylumah" />
-  
-    <meta name="twitter:creator" content="@kaylumah" />
-  
-
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Generate C# client for OpenAPI">
+<meta name="twitter:site" content="@kaylumah">
+<meta name="twitter:creator" content="@kaylumah" />
+<meta name="twitter:description" content="A look at using OpenAPI clients in C#">
+<meta name="twitter:image" content="https://kaylumah.nl/assets/images/posts/20210523/generate-csharp-client-for-openapi/cover_image.png">
 
 <script type="application/ld+json">
 {
-  "description": "A look at using OpenAPI clients in C#",
-  "@type": "WebSite",
+  "@context": "http://schema.org/",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://kaylumah.nl/2021/05/23/generate-csharp-client-for-openapi.html"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Max Hamulyák"
+  },
   "publisher": {
     "@type": "Organization",
+    "name": "Kaylumah",
     "logo": {
       "@type": "ImageObject",
       "url": "https://kaylumah.nl/assets/logo.svg"
     }
   },
-  "headline": "",
-  "sameAs": [],
-  "url": "https://kaylumah.nl",
-  "name": "Max Hamulyák",
-  "image": "https://kaylumah.nl/assets/images/social_preview.png",
-  "@context": "https://schema.org"
+  "headline": "Generate C# client for OpenAPI",
+  "image": "https://kaylumah.nl/assets/images/posts/20210523/generate-csharp-client-for-openapi/cover_image.png",
+  "datePublished": "2021-05-23",
+  "dateModified": "2021-05-23"
 }
 </script>
-
-
-
-
-
-<meta name="keywords" content="CSharp,OpenAPI,NSwag,Swashbuckle">
 
 <!-- End Kaylumah SEO tag -->
         <!-- BEGIN Feed MetaData-->
@@ -99,7 +87,7 @@
   type="application/atom+xml"
   rel="alternate"
   href="https://kaylumah.nl/feed.xml"
-  title="Kaylumah, Max Hamulyák | Portfolio & Blog RSS Feed"
+  title="Website, portfolio and blog of Max Hamulyák · Kaylumah RSS Feed"
 />
 <!-- END Feed MetaData -->
 
@@ -114,9 +102,9 @@
             |___/                                  
                                                    
  © Kaylumah. All rights reserved.                             
- a405d537345b560c21bbc723dd966f43c476c77f                              
+ bfe9160317ea626f2b7b8bb731c0bfb87335cda1                              
  2.1.3                               
- 08/06/2021 20:31:15 +00:00
+ 08/07/2021 10:48:52 +00:00
  site: 5779c7fd-cd79-5890-b41c-18d7868b3777
  page: f917bef9-d62d-55cd-85a5-c5318338e46c                                  
                                                    
@@ -752,7 +740,7 @@ request.send();
         </div>
         <div class="pt-2 flex flex-col text-center text-gray-100">
             <span>© Kaylumah. All rights reserved.</span>
-            <span class="text-xs">Deployed from commit <a class="hover:text-gray-400" href="https://github.com/kaylumah/kaylumah.github.io/commit/a405d537345b560c21bbc723dd966f43c476c77f">a405d53</a> via build <a class="hover:text-gray-400" href="https://github.com/kaylumah/kaylumah.github.io/actions/runs/1106340125">198</a></span>
+            <span class="text-xs">Deployed from commit <a class="hover:text-gray-400" href="https://github.com/kaylumah/kaylumah.github.io/commit/bfe9160317ea626f2b7b8bb731c0bfb87335cda1">bfe9160</a> via build <a class="hover:text-gray-400" href="https://github.com/kaylumah/kaylumah.github.io/actions/runs/1107773991">201</a></span>
         </div>
         <div class="pt-2 flex justify-center space-x-6">
             <a href="/" class="text-gray-100 hover:text-gray-400">
@@ -763,6 +751,6 @@ request.send();
     </div>
 </footer>
         </div>
-        <script src="/assets/prism.js?v=a405d53"></script>
+        <script src="/assets/prism.js?v=bfe9160"></script>
     </body>
 </html>
