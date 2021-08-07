@@ -1032,8 +1032,8 @@ a.external svg {
 	margin-top: 0.25rem;
 }
 
-.mt-6 {
-	margin-top: 1.5rem;
+.mt-9 {
+	margin-top: 2.25rem;
 }
 
 .ml-3 {
@@ -1160,8 +1160,8 @@ a.external svg {
 	max-width: 56rem;
 }
 
-.max-w-lg {
-	max-width: 32rem;
+.max-w-none {
+	max-width: none;
 }
 
 .max-w-prose {
@@ -1460,6 +1460,11 @@ a.external svg {
 .text-xl {
 	font-size: 1.25rem;
 	line-height: 1.75rem;
+}
+
+.text-2xl {
+	font-size: 1.5rem;
+	line-height: 2rem;
 }
 
 .font-semibold {
@@ -1924,6 +1929,10 @@ a.external svg {
 		max-width: 100%;
 	}
 
+	.md\:grid-cols-2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
 	.md\:border-none {
 		border-style: none;
 	}
@@ -2167,10 +2176,6 @@ a.external svg {
 
 	.lg\:prose-xl > :last-child {
 		margin-bottom: 0;
-	}
-
-	.lg\:max-w-none {
-		max-width: none;
 	}
 
 	.lg\:grid-cols-3 {
