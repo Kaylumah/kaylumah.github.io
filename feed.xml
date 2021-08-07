@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <id>https://kaylumah.nl/feed.xml</id>
-    <updated>2021-08-07T14:56:28.7483239+00:00</updated>
+    <updated>2021-08-07T19:50:46.4541176+00:00</updated>
     <link href="https://kaylumah.nl/feed.xml" rel="self" type="application/atom+xml" />
     <link href="" rel="alternate" type="text/html" />
     <title>Website, portfolio and blog of Max Hamuly&#225;k &#183; Kaylumah</title>
@@ -9,7 +9,7 @@
     <icon>https://kaylumah.nl/assets/logo_small.svg</icon>
     <logo>https://kaylumah.nl/assets/logo.svg</logo>
     <rights>© Kaylumah. All rights reserved.</rights>
-    <generator uri="/feed.xml" version="a669dbe">Kaylumah Site Generator</generator>
+    <generator uri="/feed.xml" version="40f59f6">Kaylumah Site Generator</generator>
     <entry>
         <id>https://kaylumah.nl/2021/07/17/decreasing-solution-build-time-with-filters.html</id>
         <title>Decreasing Solution Build time with Filters</title>
@@ -160,9 +160,9 @@ $root | ConvertTo-Json | Out-File $outputSlnFilter
         <summary>How to use solution filters to increase focus and decrease build time</summary>
         
         
-        <category term="Visual Studio 2019" />
-        
         <category term="MSBuild" />
+        
+        <category term="Visual Studio 2019" />
         
         
         
@@ -547,9 +547,9 @@ If I am writing an OpenAPI specification, I prefer the syntax of Swashbuckle for
         
         <category term="CSharp" />
         
-        <category term="OpenAPI" />
-        
         <category term="NSwag" />
+        
+        <category term="OpenAPI" />
         
         <category term="Swashbuckle" />
         
@@ -691,7 +691,7 @@ namespace Kaylumah.AdventuresWithMock.Access.Author.Service
             throw new NotImplementedException();
         }
     }
-
+}
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;And finally, our Site Manager, which should match our sequence diagram, looks like this.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-cs&quot;&gt;using System.Linq;
@@ -2065,13 +2065,9 @@ public static Config GetConfig()
         <summary>Getting started with C# script in your client-side git hooks</summary>
         
         
-        <category term="Git" />
-        
-        <category term="GitHook" />
-        
         <category term="CSharp" />
         
-        <category term="Dotnet Core" />
+        <category term="Git" />
         
         
         
