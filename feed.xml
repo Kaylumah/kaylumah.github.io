@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <id>https://kaylumah.nl/feed.xml</id>
-    <updated>2021-08-22T14:56:56.9990953+00:00</updated>
+    <updated>2021-08-28T14:26:25.7834187+00:00</updated>
     <link href="https://kaylumah.nl/feed.xml" rel="self" type="application/atom+xml" />
     <link href="" rel="alternate" type="text/html" />
     <title>Max Hamuly&#225;k &#183; Kaylumah</title>
@@ -9,7 +9,7 @@
     <icon>https://kaylumah.nl/assets/logo_alt.svg</icon>
     <logo>https://kaylumah.nl/assets/logo_alt.svg</logo>
     <rights>© Kaylumah. All rights reserved.</rights>
-    <generator uri="/feed.xml" version="995b208">Kaylumah Site Generator</generator>
+    <generator uri="/feed.xml" version="0729caa">Kaylumah Site Generator</generator>
     <entry>
         <id>https://kaylumah.nl/2021/07/17/decreasing-solution-build-time-with-filters.html</id>
         <title>Decreasing Solution Build time with Filters</title>
